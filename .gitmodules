@@ -1,0 +1,12 @@
+[submodule "fj-bom"]
+	path = fj-bom
+	url = https://github.com/fugerit-org/fj-bom.git
+[submodule "fj-lib"]
+	path = fj-lib
+	url = https://github.com/fugerit-org/fj-lib.git
+[submodule "fj-doc"]
+	path = fj-doc
+	url = https://github.com/fugerit-org/fj-doc.git
+[submodule "fj-daogen"]
+	path = fj-daogen
+	url = https://github.com/fugerit-org/fj-daogen.git

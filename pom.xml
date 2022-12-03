@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.fugerit.java</groupId>
+	<artifactId>fj-solar</artifactId>
+
+	<version>0.1.0</version>
+	<packaging>pom</packaging>
+
+	<name>fj-solar (Solar)</name>
+	<description>Fugerit Java complete project (Solar)</description>
+	<url>https://www.fugerit.org/perm/jupiter/</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<url>https://www.fugerit.org</url>
+		<name>Fugerit</name>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>Matteo Franci a.k.a. Fugerit</name>
+			<email>m@fugerit.org</email>
+			<organization>Fugerit</organization>
+			<organizationUrl>https://www.fugerit.org</organizationUrl>
+		</developer>
+		<developer>
+			<name>Daneel</name>
+			<email>d@fugerit.org</email>
+			<organization>Fugerit</organization>
+			<organizationUrl>https://www.fugerit.org</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/fugerit-org/fj-solar.git</connection>
+		<developerConnection>scm:git:ssh://github.com/fugerit-org/fj-solar.git</developerConnection>
+		<url>http://github.com/fugerit-org/fj-solar</url>
+	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java-version-compliance>1.8</java-version-compliance>
+	    <maven.compiler.source>${java-version-compliance}</maven.compiler.source>
+	    <maven.compiler.target>${java-version-compliance}</maven.compiler.target>
+	</properties>
+
+	<modules>
+		<module>fj-bom</module>
+		<module>fj-lib</module>
+		<module>fj-doc</module>
+		<module>fj-daogen</module>
+	</modules>
+	
+</project>
