@@ -4,9 +4,12 @@
 [submodule "fj-lib"]
 	path = fj-lib
 	url = https://github.com/fugerit-org/fj-lib.git
+	branch = develop
 [submodule "fj-doc"]
 	path = fj-doc
 	url = https://github.com/fugerit-org/fj-doc.git
+	branch = develop
 [submodule "fj-daogen"]
 	path = fj-daogen
 	url = https://github.com/fugerit-org/fj-daogen.git
+	branch = develop
