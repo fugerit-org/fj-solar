@@ -1,6 +1,7 @@
 [submodule "fj-bom"]
 	path = fj-bom
 	url = https://github.com/fugerit-org/fj-bom.git
+	branch = main
 [submodule "fj-lib"]
 	path = fj-lib
 	url = https://github.com/fugerit-org/fj-lib.git
